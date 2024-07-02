@@ -56,11 +56,14 @@ For your first milestone, describe what your project is and how you plan to buil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q2l6TSXJP5E?si=09z19mXJhHxSLTIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-Summary: For my starter project, I chose the calculator. This project was pretty simple, as it mainly involved me soldering the buttons, main chip, battery holder, and display onto the given PCB. After I finished soldering, I inserted the battery and tested the calculator by performing some basic operations. The final step before finishing the project was to assemble the provided case.
+## Summary:
+For my starter project, I chose the calculator. This project was pretty simple, as it mainly involved me soldering the buttons, main chip, battery holder, and display onto the given PCB. After I finished soldering, I inserted the battery and tested the calculator by performing some basic operations. The final step before finishing the project was to assemble the provided case.
 
-Challenges: This was my first time soldering, so my soldering skills were not the best. This resulted in inconsistant solders where it was not fully filled.
+## Challenges: 
+This was my first time soldering, so my soldering skills were not the best. This resulted in inconsistant solders where it was not fully filled.
 
-What's Next: My final project
+## What's Next: 
+My final project
 
 <!---
 # Schematics 
@@ -82,10 +85,9 @@ void loop() {
 }
 ```
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to you
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 -->
 # Bill of Materials
-r project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -96,7 +98,7 @@ r project needs.
 
 <!---
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
--->
+
 # Other Resources/Examples
 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
@@ -104,3 +106,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+-->
