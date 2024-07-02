@@ -63,7 +63,7 @@ For my starter project, I chose the calculator. This project was pretty simple, 
 This was my first time soldering, so my soldering skills were not the best. This resulted in inconsistant solders where it was not fully filled.
 
 ## What's Next: 
-I am going to start my final project 
+I am going to start my final project, the CNC Pen Plotter.
 
 <!---
 # Schematics 
