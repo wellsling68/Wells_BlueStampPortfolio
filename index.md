@@ -38,19 +38,29 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
+<!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idlkSNiSGeU?si=dgGiI-cUJyXilO2X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<!---
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 -->
+
+For my first milestone, I fully assembled the components and wired the electronics of the pen plotter. The pen plotter kit came with assembly instructions, which I downloaded off the doesbot website, so assembly was relatively simple. The assembled pen plotter included acrylic frames, motors, guide rails, a belt, a servo for moving the pen up and down, and wires connecting the electronics to the arduino. Depending on which motors spin and which way they spin, the pen will either move in the X axis, Y axis, or both simultaneously.
+
+The biggest challenge I had to overcome for this milestone would be assembling the acrylic parts correctly. This is because when assembling, I didn't pay attention to the orientation of the pieces I was building, so when I realized the mistakes I had made, I had to disassemble and reassemble the plotter many times. Although fixing these issues took a few extra hours to complete, I learned to be more diligent while working on this project.
+
+After this, I plan on installing the software for the pen plotter and work on plotting the template images provided within the kit.
+
 # Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q2l6TSXJP5E?si=09z19mXJhHxSLTIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
