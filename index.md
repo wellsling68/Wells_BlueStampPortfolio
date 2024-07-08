@@ -26,19 +26,27 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 
 
-
+-->
 # Second Milestone
-
+<!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXM9CBqnt5A?si=2iOWLGW5lnr_fxpR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<!--
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 -->
+
+For my second milestone, I installed and set up the software that was provided with the kit, GRBL candle 0.9. This program allowed me to connect and send instructions in G-code to my computer to the arduino on the pen plotter and send instructions in G-code to the arduino. I considered this milestone to be complete when I was able to fully print the templates provided to me, which were a wiresphere and a clock.
+
+So far, I was most suprised by the accuracy in which the pen potter could draw since I did not think that the stepper motors could spin so precisely. Besides that, I found that, in the beginning, setting up the pen plotter before powering it was the most challenging since I had not figured out how to calibrate the machine yet. This caused many issues in the beginning, such as drawing off the paper and the machine jamming into its sides. I eventually solved this issue when I switched to a different software, UGS (Universal G-code Sender). This program allowed me to manually zero the machine before plotting so I would not have to face the two challenges previously mentioned anymore.
+
+Next, I would like to plot my own custom images, so I plan on finding a way to do that.
+
 # First Milestone
 
 <!--
