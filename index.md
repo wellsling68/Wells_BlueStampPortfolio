@@ -19,7 +19,6 @@ You should comment out all portions of your portfolio that you have not complete
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!--
 For your final milestone, explain the outcome of your project. Key details to include are:
@@ -40,7 +39,10 @@ For my final milestone, I made my CNC pen plotter capable of drawing custom imag
 </ol>
 
 ##Challenges:
-My biggest challenge for completing this milestone would be getting 
+While completing my final milestone, I ran into significant issues with the servo that slides the pen vertically. The issue came when generating G-code. The application I used to generate G-code, Inkscape, used a seperate command to control the Z-axis, which could not be read by the servo which controlled the Z-axis on my machine. To fix this, I found the specific G-code that would activate the servo and, as part of G-code generation, manually replaced all the dysfunctional commands with the functional commands (M3S1000 and M5). 
+
+##What's Next:
+After finishing my project, I plan on working on modifications such as making the plotter capable of drawing in color.
 
 # Second Milestone
 <!--
