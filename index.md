@@ -12,21 +12,36 @@ You should comment out all portions of your portfolio that you have not complete
 
 <img src="Wells L.png" width="450" height="600">
 
-<!---
+
 # Final Milestone
 
+<!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<!--
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
-
 -->
+
+For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. Here are the steps I took.
+
+<ol>
+  <li>Find an image, preferably in SVG format</li>
+  <li>Upload the image to Inkscape</li>
+  <li>Turn the image into paths, then convert the paths into G-code</li>
+  <li>Upload the G-code file into UGS and connect the machine</li>
+  <li>Run the program</li>
+</ol>
+
+##Challenges:
+My biggest challenge for completing this milestone would be getting 
+
 # Second Milestone
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -40,11 +55,13 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 -->
-
+##Summary:
 For my second milestone, I installed and set up the software that was provided with the kit, GRBL candle 0.9. This program allowed me to connect and send instructions in G-code to my computer to the arduino on the pen plotter and send instructions in G-code to the arduino. I considered this milestone to be complete when I was able to fully print the templates provided to me, which were a wiresphere and a clock.
 
+##Challenges:
 So far, I was most suprised by the accuracy in which the pen potter could draw since I did not think that the stepper motors could spin so precisely. Besides that, I found that, in the beginning, setting up the pen plotter before powering it was the most challenging since I had not figured out how to calibrate the machine yet. This caused many issues in the beginning, such as drawing off the paper and the machine jamming into its sides. I eventually solved this issue when I switched to a different software, UGS (Universal G-code Sender). This program allowed me to manually zero the machine before plotting so I would not have to face the two challenges previously mentioned anymore.
 
+##What's Next:
 Next, I would like to plot my own custom images, so I plan on finding a way to do that.
 
 # First Milestone
@@ -62,11 +79,13 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 -->
-
+##Summary:
 For my first milestone, I fully assembled the components and wired the electronics of the pen plotter. The pen plotter kit came with assembly instructions, which I downloaded off the doesbot website, so assembly was relatively simple. The assembled pen plotter included acrylic frames, motors, guide rails, a belt, a servo for moving the pen up and down, and wires connecting the electronics to the arduino. Depending on which motors spin and which way they spin, the pen will either move in the X axis, Y axis, or both simultaneously.
 
+##Challenges:
 The biggest challenge I had to overcome for this milestone would be assembling the acrylic parts correctly. This is because when assembling, I didn't pay attention to the orientation of the pieces I was building, so when I realized the mistakes I had made, I had to disassemble and reassemble the plotter many times. Although fixing these issues took a few extra hours to complete, I learned to be more diligent while working on this project.
 
+##What's Next:
 After this, I plan on installing the software for the pen plotter and work on plotting the template images provided within the kit.
 
 # Starter Project
