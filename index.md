@@ -28,7 +28,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 -->
-
+##Summary:
 For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. Here are the steps I took.
 
 <ol>
