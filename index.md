@@ -29,13 +29,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 -->
 ## Summary:
-For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. Here are the steps I took.
+For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. Here is the process for this multi-step task:
 
 <ol>
   <li>Find an image, preferably in SVG format</li>
   <li>Upload the image to Inkscape</li>
   <li>Turn the image into paths, then convert the paths into G-code</li>
-  <li>Upload the G-code file into UGS and connect the machine</li>
+  <li>Save the G-code to a directory</li>
+  <li>Connect the USB cable and the power supply to the Arduino Uno</li>
+  <li>Upload the G-code file to UGS</li>
   <li>Run the program</li>
 </ol>
 
