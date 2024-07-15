@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 -->
 ## Summary:
-For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. Here is the process for this multi-step task:
+For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. These programs were key for allowing me to generate and execute G-code files efficiently and consistently. Here is the process for this multi-step task:
 
 <ol>
   <li>Find an image, preferably in SVG format</li>
@@ -45,7 +45,7 @@ For my final milestone, I made my CNC pen plotter capable of drawing custom imag
 While completing my final milestone, I ran into significant issues with the servo that slides the pen vertically. The issue came when generating G-code. The application I used to generate G-code, Inkscape, used a seperate command to control the Z-axis, which could not be read by the servo which controlled the Z-axis on my machine. To fix this, I found the specific G-code that would activate the servo and, as part of G-code generation, manually replaced all the dysfunctional commands with the functional commands (M3S1000 and M5). 
 
 ## What's Next:
-After finishing my project, I plan on working on modifications such as making the plotter capable of drawing in color.
+After finishing my project, I plan on working on modifications which will make the plotter capable of drawing in color.
 
 # Second Milestone
 <!--
@@ -61,10 +61,10 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone 
 -->
 ## Summary:
-For my second milestone, I installed and set up the software that was provided with the kit, GRBL candle 0.9. This program allowed me to connect and send instructions in G-code to my computer to the arduino on the pen plotter and send instructions in G-code to the arduino. I considered this milestone to be complete when I was able to fully print the templates provided to me, which were a wiresphere and a clock.
+For my second milestone, I installed and set up the software that was provided with the kit, GRBL candle 0.9. After that, I uploaded the firmware the kit provided onto the microcontroller on my pen plotter, an Arduino UNO. To start the pen plotter, I would connect my computer to the Arduino UNO with a USB cable, then GRBL candle 0.9 allowed me to send Gcode (geometric code) instructions from my computer to the Arduino UNO on the pen plotter. I considered this milestone to be complete when I was able to fully print quality samples of the templates provided to me, which were a wiresphere and a clock.
 
 ## Challenges:
-So far, I was most suprised by the accuracy in which the pen potter could draw since I did not think that the stepper motors could spin so precisely. Besides that, I found that, in the beginning, setting up the pen plotter before powering it was the most challenging since I had not figured out how to calibrate the machine yet. This caused many issues in the beginning, such as drawing off the paper and the machine jamming into its sides. I eventually solved this issue when I switched to a different software, UGS (Universal G-code Sender). This program allowed me to manually zero the machine before plotting so I would not have to face the two challenges previously mentioned anymore.
+So far, I was most suprised by the accuracy in which the pen potter could draw since I did not think that motors could spin so precisely. Besides that, I found that, in the beginning, setting up the pen plotter before powering it was the most challenging since I had not figured out how to calibrate the machine yet. This caused many issues in the beginning, such as drawing off the paper and the machine jamming into its sides. I eventually solved this issue when I switched to a different software, UGS (Universal G-code Sender). This program allowed me to manually zero the machine before plotting so I would not have to face the two challenges previously mentioned anymore.
 
 ## What's Next:
 Next, I would like to plot my own custom images, so I plan on finding a way to do that.
