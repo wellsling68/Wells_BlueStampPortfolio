@@ -61,13 +61,13 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone 
 -->
 ## Summary:
-For my second milestone, I installed and set up the software that was provided with the kit, GRBL candle 0.9. After that, I uploaded the firmware the kit provided onto the microcontroller on my pen plotter, an Arduino UNO. To start the pen plotter, I would connect my computer to the Arduino UNO with a USB cable, then GRBL candle 0.9 allowed me to send Gcode (geometric code) instructions from my computer to the Arduino UNO on the pen plotter. I considered this milestone to be complete when I was able to fully print quality samples of the templates provided to me, which were a wiresphere and a clock.
+For my second milestone, I installed and set up the software that was provided with the kit, GRBL Candle 0.9. After that, I uploaded the firmware the kit provided onto the microcontroller on my pen plotter, an Arduino UNO. To start the pen plotter, I would connect my computer to the Arduino UNO with a USB cable, then GRBL Candle 0.9 allowed me to send Gcode (geometric code) instructions from my computer to the Arduino UNO on the pen plotter. I considered this milestone to be complete when I was able to fully print quality samples of the templates provided to me, which were a wiresphere and a clock.
 
 ## Challenges:
-So far, I was most suprised by the accuracy in which the pen potter could draw since I did not think that motors could spin so precisely. Besides that, I found that, in the beginning, setting up the pen plotter before powering it was the most challenging since I had not figured out how to calibrate the machine yet. This caused many issues in the beginning, such as drawing off the paper and the machine jamming into its sides. I eventually solved this issue when I switched to a different software, UGS (Universal G-code Sender). This program allowed me to manually zero the machine before plotting so I would not have to face the two challenges previously mentioned anymore.
+So far, I was most suprised by the accuracy in which the pen potter could draw since I did not think that motors could spin so precisely. Besides that, I found that finding the correct position for the plotter to begin drawing the most challenging since the software I was using, GRBL Candle 0.9, did not have a visualizer showing which direction the pen plotter would move or the ability to zero the machine coordinates. Because of this, many issues arose in the beginning, such as drawing off the paper or the machine jamming into its sides. Eventually, after many attempts, I was able to figure out the starting positions for each the template images, allowing me to finally complete this milestone.
 
 ## What's Next:
-Next, I would like to plot my own custom images, so I plan on finding a way to do that.
+For my next milestone, I would like to be able to draw my own custom images on my plotter. I would also like to find new software that would give me more controll over my machine.
 
 # First Milestone
 
@@ -85,13 +85,15 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project
 -->
 ## Summary:
-For my first milestone, I fully assembled the components and wired the electronics of the pen plotter. The pen plotter kit came with assembly instructions, which I downloaded off the doesbot website, so assembly was relatively simple. The assembled pen plotter included acrylic frames, motors, guide rails, a belt, a servo for moving the pen up and down, and wires connecting the electronics to the arduino. Depending on which motors spin and which way they spin, the pen will either move in the X axis, Y axis, or both simultaneously.
+For my first milestone, I fully assembled and wired the main hardware of the pen plotter. The pen plotter kit came with assembly instructions, which I downloaded off the <a href="https://www.doesbot.com/corexy-pen-plotter/45-doesbot-a4-working-area-xy-plotter-printer-handwriting-writer-drawing-robot-kit-corexy-structure-assemble-needed-diy-cnc.html">Doesbot website</a>, so this step was relatively simple. The assembled pen plotter included acrylic frames, stepper motors, two guide rails per axis, a belt, a servo for lifting the pen, and wires connecting the electronics to the Arduino (grbl microcontroller). 
+
+Functionally, the pen plotter works by processing instructions from my computer in the Arduino, which then tells the two stepper motors to spin. To move the pen, a belt is attatched to the motors to ensure the pen would move to the correct area.
 
 ## Challenges:
 The biggest challenge I had to overcome for this milestone would be assembling the acrylic parts correctly. This is because when assembling, I didn't pay attention to the orientation of the pieces I was building, so when I realized the mistakes I had made, I had to disassemble and reassemble the plotter many times. Although fixing these issues took a few extra hours to complete, I learned to be more diligent while working on this project.
 
 ## What's Next:
-After this, I plan on installing the software for the pen plotter and work on plotting the template images provided within the kit.
+After this, I plan on installing the software that came with the pen plotter and working on plotting the template images also provided within the kit.
 
 # Starter Project
 
@@ -134,12 +136,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Soldering Practice Kit | To practice soldering | $16.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Kit-Calculator-Resistance-Electronic-HUAGZIMO/dp/B0D13C9SYT/ref=sr_1_3?crid=3HGJTLNZ9O2GX&dib=eyJ2IjoiMSJ9._SWtzcdxglPoBR9j02Ru8HdkQYctYGhXoQSzf1MVwW8-wdJNSkQkLmCAtn4dRp6g-6R7J9461vhIP2EF_nk7Tig6XDG9bCrlMTSlmck5MBQwLRhhnSiQUGo0QJa1GwgSj6a6-1yBKFqneN2-Z0AqO-StnMGL2G8655x5qfsjKhjBt48dYiTRy3_0E2_Jk5agtyEMTLExRFtYVrPI5ML2CKLPh8c4dT4clp-o5in2kS0.ajrpXguZyLba8zZbq_b1WT_1ccEQlOe_PpesP9bkSUM&dib_tag=se&keywords=calculator+solder&qid=1717994208&sprefix=calculator+solde%2Caps%2C148&sr=8-3)"> Link </a> |
-| AX4 Pen Plotter | My main project | $129.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.doesbot.com/corexy-pen-plotter/45-doesbot-a4-working-area-xy-plotter-printer-handwriting-writer-drawing-robot-kit-corexy-structure-assemble-needed-diy-cnc.html)"> Link </a> |
-
+| AX4 XY Pen Plotter | My main project | $129.99 | <a href="https://www.doesbot.com/corexy-pen-plotter/45-doesbot-a4-working-area-xy-plotter-printer-handwriting-writer-drawing-robot-kit-corexy-structure-assemble-needed-diy-cnc.html"> Link </a> |
+| DC Gear Motor | Part of my modification | $13.99 | <a href="https://www.amazon.com/200RPM-Torque-Reduction-Gearwheel-Gearbox/dp/B09YV4PK55/ref=asc_df_B09YV4PK55/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=191741027004351481&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435177578&mcid=af7d165fd28b3f3eb082fd4452d055c5&hvocijid=191741027004351481-B09YV4PK55-&hvexpln=73&gad_source=1&th=1"> Link </a> |
+| 10 Color Pen | Modification for plotting in color | $10.99 | <a href="https://www.amazon.com/HeTaoCat-Multicolor-0-5mm-Retractable-Ballpoint/dp/B08BYN3LZW?th=1"> Link </a> |
+| GRBL 1.1 Microcontroller | What the item is used for | $29.99 | <a href="https://www.amazon.com/Doesbot-Control-Support-Spindle-Engraving/dp/B0C625ZCN7)"> Link </a> |
+| 3d Printed Parts | Parts integral for my modification | N/A | <a href=""> N/A </a> |
 
 <!---
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href=""> Link </a> |
+| Item Name | What the item is used for | $Price | <a href=""> Link </a> |
 -->
 
 <!---
