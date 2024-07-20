@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 <img src="Wells L (1).png" width="500" height="420">
 # Modifications
-For my modification, I wanted to make my pen plotter able to draw in color. To start, I wanted to see if this had been done before by searching for this modification online. To my suprise, I found a very well documented <a href="https://www.instructables.com/Tims-10-Colour-Plotter-Pen/">article</a> on Instructables detailing the steps to make the pen plotter draw in color. The article provided 3d printable models that I could download and implement onto my machine. 
+For my modification, I wanted to make my pen plotter able to draw in color. To start, I wanted to see if this had been done before by searching for this modification online. To my suprise, I found a very well documented <a href="https://www.instructables.com/Tims-10-Colour-Plotter-Pen/">article</a> on Instructables detailing the steps to make the pen plotter draw in color. The article provided 3d printable models that I could download and implement onto my machine, saving me the time I would have needed to design my own model. 
 
 <!--# Demo Night Presentation
 
