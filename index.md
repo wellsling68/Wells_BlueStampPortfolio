@@ -11,7 +11,12 @@ You should comment out all portions of your portfolio that you have not complete
 | Wells L | Saratoga High School | Electrical Engineering | Rising Junior
 
 <img src="Wells L.png" width="450" height="600">
+# Modifications
+For my modification, I wanted to make my pen plotter able to draw in color. To start, I wanted to see if this had been done before by searching for this modification online. To my suprise, I found a very well documented <a href="https://www.instructables.com/Tims-10-Colour-Plotter-Pen/">article</a> on Instructables detailing the steps to make the pen plotter draw in color. The article provided 3d printable models that I could download and implement onto my machine. 
 
+# Demo Night Presentation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SiCJL7baP7g?si=7E9pX54SVRi4F1Ub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Final Milestone
 
