@@ -10,7 +10,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Wells L | Saratoga High School | Electrical Engineering | Rising Junior
 
-<img src="Wells L (1).png" width="450" height="600">
+<img src="Wells L (1).png" width="650" height="550">
 # Modifications
 For my modification, I wanted to make my pen plotter able to draw in color. To start, I wanted to see if this had been done before by searching for this modification online. To my suprise, I found a very well documented <a href="https://www.instructables.com/Tims-10-Colour-Plotter-Pen/">article</a> on Instructables detailing the steps to make the pen plotter draw in color. The article provided 3d printable models that I could download and implement onto my machine. 
 
