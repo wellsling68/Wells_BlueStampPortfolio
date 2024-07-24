@@ -11,9 +11,13 @@ You should comment out all portions of your portfolio that you have not complete
 | Wells L | Saratoga High School | Electrical Engineering | Rising Junior
 
 <img src="Wells L (1).png" width="500" height="420">
+
 # Modifications
 For my modification, I wanted to make my pen plotter able to draw in color. To start, I wanted to see if this had been done before by searching for this modification online. To my suprise, I found a very well documented <a href="https://www.instructables.com/Tims-10-Colour-Plotter-Pen/">article</a> on Instructables detailing the steps to make the pen plotter draw in color. The article provided 3d printable models that I could download and implement onto my machine, saving me the time I would have needed to design my own model. 
 
+I faced many challenges while working on this modification, including some I had not anticipated. One of the challenges was with my 3D printed parts. Because I did not have experience with CAD before, the tool holder, which I had modified to mount onto my existing plotter, had to be reprinted 5 times since I made many errors while cadding. This led to a lot of time being wasted, since each part took anywhere from 30 minutes to 1.5 hours. After assembling all of the 3D printed parts, I found myself with an unexpected issue: the color changing module was too heavy. To fix this, I came up with 3 solutions. The first was to reprint the parts with less infill to hopefully make it lighter (10% --> 5%). The second was to add a baseplate which would not only hold the paper while plotting but also support the pen as it moved. The last was to add counterweights to the pen's guide rail, which would prevent the plotter from tipping over.  
+
+Unfortunately, I was not able to fully complete the color switching mechanism at Bluestamp. This is due to my board not having GPIO (General Purpose Input/Output) pins which my geared DC motor could use. The best solution I came up before Bluestamp ended was to manually power the DC motor with a 9V battery whenever I wanted to change colors.  
 <!--# Demo Night Presentation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SiCJL7baP7g?si=7E9pX54SVRi4F1Ub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
