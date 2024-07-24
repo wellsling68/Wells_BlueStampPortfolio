@@ -18,8 +18,8 @@ For my modification, I wanted to make my pen plotter able to draw in color. To s
 I faced many challenges while working on this modification, including some I had not anticipated. One of the challenges was with my 3D printed parts. Because I did not have experience with CAD before, the tool holder, which I had modified to mount onto my existing plotter, had to be reprinted 5 times since I made many errors while cadding. This led to a lot of time being wasted, since each part took anywhere from 30 minutes to 1.5 hours. After assembling all of the 3D printed parts, I found myself with an unexpected issue: the color changing module was too heavy. To fix this, I came up with 3 solutions. The first was to reprint the parts with less infill to hopefully make it lighter (10% --> 5%). The second was to add a baseplate which would not only hold the paper while plotting but also support the pen as it moved. The last was to add counterweights to the pen's guide rail, which would prevent the plotter from tipping over.  
 
 Unfortunately, I was not able to fully complete the color switching mechanism at Bluestamp. This is due to my board not having GPIO (General Purpose Input/Output) pins which my geared DC motor could use. The best solution I came up before Bluestamp ended was to manually power the DC motor with a 9V battery whenever I wanted to change colors.  
-<!--# Demo Night Presentation
 
+<!--# Demo Night Presentation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SiCJL7baP7g?si=7E9pX54SVRi4F1Ub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 -->
 
