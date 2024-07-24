@@ -41,7 +41,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 ## Summary:
 For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. These programs were key for allowing me to generate and execute G-code files efficiently and consistently. Here is the process for this multi-step task:
 
-<ol>
+&emsp<ol>
   <li>Find an image, preferably in SVG format</li>
   <li>Upload the image to Inkscape</li>
   <li>Turn the image into paths, then convert the paths into G-code</li>
