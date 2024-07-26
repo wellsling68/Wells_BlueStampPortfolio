@@ -41,16 +41,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 ## Summary:
 For my final milestone, I made my CNC pen plotter capable of drawing custom images. Since my second milestone, I downloaded new software, Inkscape and UGS (Universal G-code Sender), which allowed me to complete this milestone. These programs were key for allowing me to generate and execute G-code files efficiently and consistently. Here is the process for this multi-step task:
 
-&emsp<ol>
-  <li>Find an image, preferably in SVG format</li>
-  <li>Upload the image to Inkscape</li>
-  <li>Turn the image into paths, then convert the paths into G-code</li>
-  <li>Save the G-code to a directory</li>
-  <li>Connect the USB cable and the power supply to the Arduino Uno</li>
-  <li>Upload the G-code file to UGS</li>
-  <li>Run the program</li>
-</ol>
-
+1. Find an image, preferably in SVG format
+2. Upload the image to Inkscape
+3. Turn the image into paths, then convert the paths into G-code
+4. Save the G-code to a directory
+5. Connect the USB cable and the power supply to the Arduino Uno
+6. Upload the G-code file to UGS
+7. Run the program
+   
 ## Challenges:
 While completing my final milestone, I ran into significant issues with the servo that slides the pen vertically. The issue came when generating G-code. The application I used to generate G-code, Inkscape, used a seperate command to control the Z-axis, which could not be read by the servo which controlled the Z-axis on my machine. To fix this, I found the specific G-code that would activate the servo and, as part of G-code generation, manually replaced all the dysfunctional commands with the functional commands (M3S1000 and M5). 
 
